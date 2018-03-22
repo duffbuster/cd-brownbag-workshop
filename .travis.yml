@@ -5,6 +5,7 @@ cache:
 language: node_js
 node_js:
   - "node"
+script: yarn build
 deploy:
   provider: pages
   skip-cleanup: true
