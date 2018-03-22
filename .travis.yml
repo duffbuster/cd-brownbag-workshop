@@ -1,3 +1,8 @@
+cache:
+  yarn: true
+  directories:
+    - node_modules
+language: node_js
 deploy:
   provider: pages
   skip-cleanup: true
